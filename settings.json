@@ -1,0 +1,164 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontSize": 10,
+  "editor.tabSize": 2,
+  // Enable / disable JavaScript validation
+  "javascript.validate.enable": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.insertSpaces": true,
+  "editor.rulers": [
+      120
+  ],
+  // Defines space handling after a comma delimiter
+  "javascript.format.insertSpaceAfterCommaDelimiter": true,
+  //  Defines space handling after a semicolon in a for statement
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+  // Defines space handling after a binary operator
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+  // Defines space handling after keywords in control flow statement
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+  // Defines space handling after function keyword for anonymous functions
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  // Defines space handling after opening and before closing non empty parenthesis
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+  // Defines space handling after opening and before closing non empty brackets
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+  // Defines whether an open brace is put onto a new line for functions or not
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+  // Defines whether an open brace is put onto a new line for control blocks or not
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  //-------- VS Code Perforce Configuration --------
+  // Automatically open a file for edit when saved
+  "perforce.editOnFileSave": true,
+  // Automatically open a file for edit when Modified
+  "perforce.editOnFileModified": true,
+  // Automatically Add a file to depot when Created
+  "perforce.addOnFileCreate": true,
+  // Automatically delete a file from depot when deleted
+  "perforce.deleteOnFileDelete": true,
+  // Configure glob patterns of file paths to exclude from file watching. Changing this setting requires a restart. When you experience Code consuming lots of cpu time on startup, you can exclude large folders to reduce the initial load.
+  "files.watcherExclude": {
+      "**/.git/objects/**": true,
+      "**/node_modules/**": true,
+      "**/dist/**": true
+  },
+  "typescript.check.tscVersion": false,
+  "window.zoomLevel": 0,
+  "cSpell.enabledLanguageIds": [
+      "c",
+      "cpp",
+      "csharp",
+      "go",
+      "javascript",
+      "javascriptreact",
+      "json",
+      "latex",
+      "markdown",
+      "php",
+      "plaintext",
+      "python",
+      "text",
+      "typescript",
+      "typescriptreact",
+      "yml"
+  ],
+  "spell.StopAsking": true,
+  "workbench.sideBar.location": "left",
+  "editor.minimap.enabled": false,
+  "gitlens.advanced.messages": {
+      "suppressCommitHasNoPreviousCommitWarning": false,
+      "suppressCommitNotFoundWarning": false,
+      "suppressFileNotUnderSourceControlWarning": false,
+      "suppressGitVersionWarning": false,
+      "suppressLineUncommittedWarning": false,
+      "suppressNoRepositoryWarning": false,
+      "suppressResultsExplorerNotice": false,
+      "suppressShowKeyBindingsNotice": true,
+      "suppressUpdateNotice": true,
+      "suppressWelcomeNotice": false
+  },
+  "extensions.ignoreRecommendations": false,
+  "python.disablePromptForFeatures": [
+      "pylint"
+  ],
+  "gitlens.keymap": "alternate",
+  "gitlens.historyExplorer.enabled": true,
+  "git.confirmSync": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.language": "en",
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.largeFileOptimizations": false,
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.jediEnabled": false,
+  "editor.renderControlCharacters": false,
+  "breadcrumbs.enabled": true,
+  "cSpell.userWords": [
+      "Fanout",
+      "Tencent",
+      "apicache",
+      "cidr",
+      "creditraing's",
+      "creditrating",
+      "etag",
+      "haha",
+      "maxsize",
+      "qqid",
+      "qqids"
+  ],
+  "files.maxMemoryForLargeFilesMB": 8192,
+  "python.languageServer": "Microsoft",
+  "debug.node.autoAttach": "on",
+  "jest.debugCodeLens.showWhenTestStateIn": [
+      "fail",
+      "unknown"
+  ],
+  "debug.javascript.pickAndAttachOptions": {
+
+  },
+  "jest.enableInlineErrorMessages": true,
+  "jest.debugMode": true,
+  "jest.showCoverageOnLoad": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  // Custom
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+  "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+      "*.yaml": "helm"
+  },
+  "json.maxItemsComputed": 10000,
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.vueIndentScriptAndStyle": true,
+  "workbench.colorTheme": "Monokai Dimmed",
+  "prettier.printWidth": 120,
+  "prettier.bracketSpacing": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+
+  // Format settings
+  "eslint.format.enable": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+  "source.organizeImports": false
+},
+"eslint.runtime": "",
+"eslint.alwaysShowStatus": true,
+"eslint.lintTask.enable": true,
+"editor.formatOnSave": true,
+"editor.cursorStyle": "block",
+}
