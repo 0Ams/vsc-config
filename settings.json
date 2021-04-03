@@ -106,6 +106,7 @@
         "creditraing's",
         "creditrating",
         "etag",
+        "grpc",
         "haha",
         "maxsize",
         "prefetch",
@@ -157,11 +158,15 @@
 "eslint.runtime": "",
 "eslint.alwaysShowStatus": true,
 "eslint.lintTask.enable": true,
-"editor.formatOnSave": true,
+"editor.formatOnSave": false,
 "editor.cursorStyle": "block",
 "eslint.codeAction.showDocumentation": {
     "enable": true
 },
 "jest.showCoverageOnLoad": true,
 "jest.debugMode": true,
+// "sync.gist": "0Ams",
+"sync.autoUpload": true,
+"sync.autoDownload": true,
+"sync.gist": "f8a587ded287a276db52f4b21412b4c3",
 }
